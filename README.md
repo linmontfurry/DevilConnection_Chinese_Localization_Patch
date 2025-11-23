@@ -27,32 +27,23 @@
 簡體的安裝方法請下載檔案後參考壓縮檔內的"安装前请看.txt"進行安裝  
 繁體中文則請繼續參考下方的安裝說明  
 
-⚙️安裝需求  
-1.使用補丁前請先安裝 Node.js  
-https://nodejs.org/  
-2.安裝完 Node.js 後，按下 Win+R，開啟 CMD 輸入以下內容進行 @electron/asar 的安裝：  
-npm install -g @electron/asar  
-
 ⚙️ 使用方法  
 ▶️ 安裝步驟  
-1. 從 Steam 進入遊戲根目錄下的 resources 資料夾。  
-2. 將下載完的檔案解壓縮到 resources 資料夾內 。  
-　（⚠️ 請注意遊戲的 app.asar 和 zh-tw.asar 以及 install_patch.bat 都應在 resources 內）  
-3. 雙擊 install_patch.bat 等待安裝完畢。  
+1. 從 Steam 進入遊戲根目錄。  
+2. 將下載完的檔案解壓縮到遊戲根目錄。  
+(⚠️解壓縮後，補丁的檔案會與遊戲主體 DevilConnection.exe 應在同個資料夾內)  
+3. 點擊 Mod Loader Installer.bat 等待安裝完畢。  
 4. 完成安裝開始遊玩 🎉  
 
 🔄 遊戲本體更新  
-1. 刪除中文化後的 app.asar。  
+1. 刪除 resources 資料夾下的 app.asar。  
 2. 將 app.asar.bak 更名回 app.asar。  
 3. 從 Steam 執行遊戲更新。  
 4. 更新完畢後再依照“安裝步驟”重新放入中文化檔。  
-　（⚠️ 若中文化被Steam更新覆蓋，則將app.asar.bak刪除後再次執行“安裝步驟”即可）  
+　（⚠️ 若中文化被 Steam 更新覆蓋，則將 app.asar.bak 刪除後再次執行“安裝步驟”即可）  
 
 🆙 中文化更新  
-1. 刪除中文化後的 app.asar。  
-2. 將 app.asar.bak 更名回 app.asar。  
-3. 下載新的中文化檔案。  
-4. 依照“安裝步驟”重新放入中文化檔。  
+1. 下載最新版本中文化後僅覆蓋遊戲跟目錄下 plugins 檔案即可。  
 
 ❤️ 特別感謝  
 • dbfox  
